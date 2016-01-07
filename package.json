@@ -7,15 +7,24 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "ejs": "2.3.3",
-    "express": "4.13.3"
+    "body-parser": "^1.14.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.0",
+    "express": "4.13.3",
+    "express-session": "^1.12.1",
+    "mongoose": "^4.3.4",
+    "mongoose-findorcreate": "^0.1.2",
+    "passport": "^0.3.2",
+    "passport-accesstoken": "^0.1.0",
+    "passport-facebook-token": "^3.0.6",
+    "res-error": "^0.3.1"
   },
   "engines": {
-    "node": "0.12.7"
+    "node": "4.2.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/kozzztya/weekly-success-server"
   },
   "keywords": [
     "node",
